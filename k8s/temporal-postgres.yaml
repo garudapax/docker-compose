@@ -144,17 +144,17 @@ items:
           containers:
             - env:
                 - name: DB
-                  value: postgresql
+                  value: qa_temporal_db
                 - name: DB_PORT
                   value: "5432"
                 - name: DYNAMIC_CONFIG_FILE_PATH
                   value: config/dynamicconfig/development-sql.yaml
                 - name: POSTGRES_PWD
-                  value: temporal
+                  value: Pax3LdbP455W0rdMasuk123
                 - name: POSTGRES_SEEDS
                   value: postgresql
                 - name: POSTGRES_USER
-                  value: temporal
+                  value: PaxelU5312N4m3
               image: temporalio/auto-setup:1.17.1
               name: temporal
               ports:
